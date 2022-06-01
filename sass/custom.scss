@@ -1,0 +1,84 @@
+#header {
+box-shadow: 0 2px 5px #789;
+    a{
+        color: #c61995;
+        font-size: 20px;
+        gap: 5rem;
+        font-family:Arial, Helvetica, sans-serif ;
+        font-weight: 550;
+    }
+}
+
+$font-family-sans-serif: 'Outfit', sans-serif;
+
+.separar{
+    width: 100%
+}
+
+.titulo{
+font-size: 6rem;
+color: #c61995;
+font-weight: 1000;
+font-family: 'Great Vibes', cursive;
+}
+.low{
+    @extend .titulo;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem
+}
+
+.firstcolumn{
+    transition: transform 2s;
+}
+
+.firstcolumn:hover{
+    transform: translate(10px) scale(1.1);
+}
+
+footer {
+    background: #c61995;;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  {
+    i {
+        font-size: 26px;
+        padding: 0 8px;
+        color:#f3f3f3;
+    }
+    
+}
+
+#rrss{
+    @extend #iconos;
+    margin-left: 300px;
+    position: fixed;
+    .changecolor{
+        color: #c61995;
+        } 
+        
+}
+
+// .carousel-inner{
+//     max-height: 90rem;
+// }
+
+.carousel-item{
+    height: 70rem;
+}
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap"; /* Bootstrap */
+
+
+
+
+
