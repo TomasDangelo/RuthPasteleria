@@ -49,23 +49,28 @@ footer p {
   text-align: center;
 }
 
-#iconos i, #rrss i {
+#iconos i {
   font-size: 26px;
   padding: 0 8px;
   color: #f3f3f3;
 }
 
 #rrss {
+  font-size: 20px;
+  padding: 0 8px;
   margin-left: 300px;
   position: fixed;
+  z-index: 1000;
 }
 
 #rrss .changecolor {
   color: #c61995;
 }
 
-.carousel-item {
-  height: 70rem;
+@media screen and (min-width: 748px) {
+  .carousel-item {
+    height: 70rem;
+  }
 }
 
 /*!

@@ -53,9 +53,11 @@ footer p{
 }
 
 #rrss{
-    @extend #iconos;
+    font-size: 20px;
+    padding: 0 8px;
     margin-left: 300px;
     position: fixed;
+    z-index: 1000;
     .changecolor{
         color: #c61995;
         } 
@@ -66,8 +68,11 @@ footer p{
 //     max-height: 90rem;
 // }
 
-.carousel-item{
-    height: 70rem;
+@media screen and (min-width: 748px){
+    .carousel-item{
+        height: 70rem;
+    }
+    
 }
 
 
