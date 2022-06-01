@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "purgecss --css sass/custom.css --content index.html -o sass/reducido.css"
+  "start": "sass custom.scss ./sass/custom.css -w --no-source-map -s compressed"
   },
   "keywords": [],
   "author": "",
