@@ -67,6 +67,10 @@ footer p {
   color: #c61995;
 }
 
+.imagenslide {
+  opacity: 0.8;
+}
+
 @media screen and (min-width: 748px) {
   .carousel-item {
     height: 70rem;
