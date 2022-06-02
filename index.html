@@ -18,35 +18,53 @@
 <header id="header">
     <nav class="navbar navbar-expand-xl navbar-light bg-light justify-content-between">
         <div class="container-fluid d-flex justify-content-between">
-          <a class="navbar-brand" href="#"><img class="img-fluid" src="./images/logo-ruth.jpg" alt="logo-ruth" width="120px"
-             height="100px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown"
-           aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse show separar" id="navbarWithDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item ms-5"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
-              <li class="nav-item ms-5"><a class="nav-link" href="contacto.html">Contacto</a></li>
-              <li class="nav-item ms-5"><a class="nav-link" href="./pages/productos.html">Todos los productos</a></li>                        
-            </ul>
-          </div>
+          <a class="navbar-brand" href="#"><img class="img-fluid border-0 rounded-circle" src="./images/batidor.jpg" alt="logo-ruth" width="120px"
+             height=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown"
+              aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show separar" id="navbarWithDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item ms-4"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                <li class="nav-item ms-4"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                <li class="nav-item ms-4"><a class="nav-link" href="./pages/productos.html">Todos los productos</a></li> 
+                <li class="nav-item ms-4"><a class="nav-link" href="./pages/pedidos.html">Pedidos</a></li>                       
+              </ul>
+            </div>
         </div>
       </nav>
 </header>
 
-<div id="rrss" class="ms-0 mt-1 d-flex flex-column flex-wrap">
-  <a href="#"><i class="bi bi-facebook changecolor primero"></i></a>
-  <a href="https://api.whatsapp.com/send?phone=+543415953639&text=Hola, quiero hacer un pedido!"><i class="bi bi-whatsapp changecolor segundo"></i></a>
-  <a href="https://www.instagram.com/ruthpasteleria/"><i class="bi bi-instagram changecolor tercero"></i></a> 
+<div id="rrss" class="mt-2 d-flex flex-column flex-wrap">
+  <a href="#" target="_blank"><i class="bi bi-facebook changecolor"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=+543415953639&text=Hola, quiero hacer un pedido!" target="_blank"><i class="bi bi-whatsapp changecolor"></i></a>
+  <a href="https://www.instagram.com/ruthpasteleria/" target="_blank"><i class="bi bi-instagram changecolor"></i></a> 
 </div>
 
-<main>  <!-- class="container-fluid mt-5 mb-5" -->
+<main class="mt-4">  <!-- class="container-fluid mt-5 mb-5" -->
+
+  <h1 class="text-center titulo mb-0">Ruth pastelería</h1> 
+
+  <section class="container-fluid">
+
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <img src="./images/logo-ruth.jpg" alt="logo" class="img-fluid">
+      </div>
+  
+      <div class="col-12 col-lg-6 d-flex flex-column mt-5 separacion">
+        <h2 class="text-center fw-bold text-danger fs-1">Pastelería <span class="text-danger fw-bold">de verdad</span></h2>
+        <h4 class="text-center text-danger fs-2 fw-bold text-opacity-50">En Ruth buscamos la perfección</h4>
+        <p class="text-center fw-bold">Nuestras tortas son hechas siempre en el momento, y además contamos con una gran variedad de productos como alfajores, roscas, huevos de pascua, propuestas infantiles y para días especiales, y mucho más. </p>
+      </div>
+    </div>
+  
+  </section>
 
   <section class="mt-3"> <!-- Sección de Tarjetas -->
 
-  <h1 class="text-center titulo">Ruth Pastelería</h1> 
-  <h3 class="low text-center">By Flor Tomatis</h3>
+ 
 
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false"> <!-- Inicio Carousel -->
     <div class="carousel-indicators">
@@ -59,21 +77,21 @@
       <div class="carousel-item active" data-bs-interval="2000">
         <img src="./images/brownie.jpg" class="d-block w-100 img-fluid" alt="brownie">
       <div class="carousel-caption d-md-block">
-      <h5 class="fw-bold fs-2">Los mejores Brownies</h5>
-      <p>Con una textura y sabor increíbles</p> </div>
+      <h5 class="fw-bold fs-1 text-danger">Los mejores Brownies</h5>
+      <p class="fs-3">Con una textura y sabor increíbles</p> </div>
       </div>
       <div class="carousel-item" data-bs-interval="3000">
         <img src="./images/Macarons-colores.jpg" class="d-block w-100 img-fluid" alt="macarons">
         <div class="carousel-caption d-md-block">
-          <h5 class="fw-bold fs-2">Macarons de todos los colores que quieras</h5>
-          <p>Con una gran variedad de alternativas de rellenos</p>
+          <h5 class="fw-bold fs-1 text-danger">Macarons de todos los colores que quieras</h5>
+          <p class="fs-3">Con una gran variedad de alternativas de rellenos</p>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="3000">
         <img src="./images/rogel-copia.jpg" class="d-block w-100 img-fluid" alt="tortaqueso">
         <div class="carousel-caption d-md-block">
-          <h5 class="fw-bold fs-2">Las tortas más increíbles</h5>
-          <p>Hechas en el momento y con mucho amor</p>
+          <h5 class="fw-bold fs-1 text-danger">Las tortas más increíbles</h5>
+          <p class="fs-3">Hechas en el momento y con mucho amor</p>
         </div>
       </div>
     </div>
@@ -87,6 +105,7 @@
     </button>
   </div>
 </section> <!-- Fin sección de tarjetas -->
+
 
 
 </main> <!-- Cierre Main contenedor fluent -->

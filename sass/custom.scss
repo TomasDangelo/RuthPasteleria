@@ -1,7 +1,9 @@
+
+$danger:  rgb(233, 63, 233);
 #header {
 box-shadow: 0 2px 5px #789;
     a{
-        color: #c61995;
+        color: $danger;
         font-size: 20px;
         gap: 5rem;
         font-family:Arial, Helvetica, sans-serif ;
@@ -17,7 +19,7 @@ $font-family-sans-serif: 'Outfit', sans-serif;
 
 .titulo{
 font-size: 6rem;
-color: #c61995;
+color: $danger;
 font-weight: 1000;
 font-family: 'Great Vibes', cursive;
 }
@@ -36,8 +38,8 @@ font-family: 'Great Vibes', cursive;
 }
 
 footer {
-    background: #c61995;;
-    min-height: 100px;;
+    background: $danger;
+    min-height: 100px;
 }
 footer p{
     color:#f3f3f3;
@@ -53,15 +55,35 @@ footer p{
 }
 
 #rrss{
-    font-size: 20px;
-    padding: 0 8px;
+    @extend #iconos;
     margin-left: 300px;
     position: fixed;
+    right: 0;
     z-index: 1000;
     .changecolor{
-        color: #c61995;
+        transition: all .5s;
+        /* color: #c61995; */
         } 
-        
+}
+
+.bi-whatsapp{
+    background: green;
+    border-radius: 1rem 0 0 0;
+}
+
+.bi-facebook{
+    background: blue;
+}
+
+.bi-instagram{
+    background: violet;
+    border-radius: 0 0 0 1rem;
+}
+
+.changecolor:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
 
 
@@ -75,13 +97,19 @@ footer p{
 
 
 
-
-
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 17,
+  6: $spacer * 3,
+);
 
 
 @import "../node_modules/bootstrap/scss/bootstrap"; /* Bootstrap */
-
-
 
 
 
