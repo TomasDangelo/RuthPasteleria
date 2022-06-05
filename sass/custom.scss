@@ -23,6 +23,11 @@ color: $danger;
 font-weight: 1000;
 font-family: 'Great Vibes', cursive;
 }
+.segundotitle{
+    @extend .titulo;
+    font-size: 3rem;
+    font-family: 'Outfit', sans-serif; 
+}
 .low{
     @extend .titulo;
     font-family: 'Outfit', sans-serif;
@@ -73,6 +78,7 @@ footer p{
 
 .bi-facebook{
     background: blue;
+    border-radius: 1rem 0 0 0;
 }
 
 .bi-instagram{
@@ -87,11 +93,14 @@ footer p{
 }
 
 
+
 @media screen and (min-width: 748px){
     .carousel-item{
         height: 70rem;
     }
-    
+    .prueba{
+        object-fit: contain;
+    }
 }
 
 

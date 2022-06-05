@@ -15,11 +15,16 @@
   width: 100%;
 }
 
-.titulo, .low {
+.titulo, .segundotitle, .low {
   font-size: 6rem;
   color: #e93fe9;
   font-weight: 1000;
   font-family: 'Great Vibes', cursive;
+}
+
+.segundotitle {
+  font-size: 3rem;
+  font-family: 'Outfit', sans-serif;
 }
 
 .low {
@@ -75,6 +80,7 @@ footer p {
 
 .bi-facebook {
   background: blue;
+  border-radius: 1rem 0 0 0;
 }
 
 .bi-instagram {
@@ -92,6 +98,10 @@ footer p {
 @media screen and (min-width: 748px) {
   .carousel-item {
     height: 70rem;
+  }
+  .prueba {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 

@@ -17,7 +17,7 @@
 <header id="header">
     <nav class="navbar navbar-expand-xl navbar-light bg-light justify-content-between">
         <div class="container-fluid d-flex justify-content-between">
-          <a class="navbar-brand" href="#"><img class="img-fluid" src="../images/logo-ruth.jpg" alt="logo-ruth" width="120px" height="100px"></a>
+          <a class="navbar-brand" href="#"><img class="img-fluid border-0 rounded-circle" src="../images/logo-ruth.jpg" alt="logo-ruth" width="120px" height="100px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -25,14 +25,6 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item ms-4"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
               <li class="nav-item ms-4"><a class="nav-link" href="contacto.html">Contacto</a></li>
-              <li class="nav-item dropdown ms-4">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Todos los productos</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#primeratarjeta">Rogel</a></li>
-                  <li><a class="dropdown-item" href="#segundatarjeta">Torta de Frutilla</a></li>
-                  <li><a class="dropdown-item" href="#terceratarjeta">Torta de Chocolate</a></li>
-                  <li><a class="dropdown-item" href="#cuartatarjeta">Chocotorta</a></li>
-                </ul> </li>
               <li class="nav-item ms-4"><a class="nav-link" href="#">Pedidos</a></li>              
             </ul>
           </div>
@@ -40,22 +32,21 @@
       </nav>
 </header>
 
-<div id="rrss" class="ms-0 mt-1 d-flex flex-column flex-wrap">
-  <a href="#"><i class="bi bi-facebook changecolor primero"></i></a>
-  <a href="https://api.whatsapp.com/send?phone=+543415953639&text=Hola, quiero hacer un pedido!"><i class="bi bi-whatsapp changecolor segundo"></i></a>
-  <a href="https://www.instagram.com/ruthpasteleria/"><i class="bi bi-instagram changecolor tercero"></i></a> 
+<div id="rrss" class="mt-2 d-flex flex-column flex-wrap">
+  <a href="#" target="_blank"><i class="bi bi-facebook changecolor"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=+543415953639&text=Hola, quiero hacer un pedido!" target="_blank"><i class="bi bi-whatsapp changecolor"></i></a>
+  <a href="https://www.instagram.com/ruthpasteleria/" target="_blank"><i class="bi bi-instagram changecolor"></i></a> 
 </div>
 
-<main class="container-fluid mt-6 mb-5">
+<main class="container-fluid mt-6 mb-8">
 
   <section> <!-- Sección de Tarjetas -->
 
-  <h1 class="text-center titulo">Ruth Pastelería</h1> 
-
     <div class="row d-flex justify-content-center"> <!-- Inicio div contenedor general de filas  -->
 
+      <h1 class="text-center segundotitle mt-2">Nuestras Tortas</h1>
 
-   <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-3 firstcolumn" id="primeratarjeta" style="width: 18rem;"> <!-- Primera tarjeta -->
+   <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-3 firstcolumn" id="primeratarjeta" style="width: 18rem;"> <!-- Primera tarjeta -->
     <img class="img-fluid" src="../images/rogel.jpg" alt="rogel">
     <div class="card-body">
       <h5 class="card-title text-center fw-bold">Torta rogel</h5>
@@ -64,7 +55,7 @@
     </div>
   </div>
 
-  <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-3 firstcolumn" id="segundatarjeta" style="width: 18rem;"> <!-- Segunda tarjeta -->
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-3 firstcolumn" id="segundatarjeta" style="width: 18rem;"> <!-- Segunda tarjeta -->
     <img class="img-fluid" src="../images/torta-chocolate.jpg" alt="tortaChocolate">
     <div class="card-body">
       <h5 class="card-title text-center fw-bold">Torta de Chocolate</h5>
@@ -73,7 +64,7 @@
     </div>
   </div>
 
-  <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
     <img class="img-fluid" src="../images/torta-frutilla.jpg" alt="tortaAlta">
     <div class="card-body">
       <h5 class="card-title text-center fw-bold">Torta alta</h5>
@@ -82,103 +73,126 @@
     </div>
   </div>
 
-<div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-3 firstcolumn" id="cuartatarjeta" style="width: 18rem;"> <!-- Cuarta tarjeta -->
-    <img class="img-fluid" src="../images/chocotorta.jpg" alt="chocotorta">
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
+    <img class="img-fluid" src="../images/torta-frutosrojos.jpg" alt="tortaAlta">
     <div class="card-body">
-      <h5 class="card-title text-center fw-bold">Chocotorta</h5>
-      <p class="card-text text-center">Es una torta con relleno de chocolinas, decorada con oreos y bolas de chocolate. Puede ser de uno o dos pisos. </p>
-      <a href="#" class="btn btn btn-outline-danger btn btn-outline-danger mt-4 ms-6">Precio: $1500</a>
+      <h5 class="card-title text-center fw-bold">Brownie Nutella</h5>
+      <p class="card-text text-center">Esta torta tiene base de brownie con una capa de Nutella, frutos rojos y crema. </p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-3 firstcolumn" id="primeratarjeta" style="width: 18rem;"> <!-- Primera tarjeta -->
+    <img class="img-fluid" src="../images/torta-decorada.jpg" alt="rogel">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Torta decorada Rosa</h5>
+      <p class="card-text text-center">Esta torta tiene 8 capas de masa intercaladas con dulce de leche, sumado a su abundante merengue.</p>
+      <a href="#" class="btn btn btn-outline-danger mt-4 ms-6">Precio: $1500</a>
     </div>
   </div>
 
-  
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-3 firstcolumn" id="segundatarjeta" style="width: 18rem;"> <!-- Segunda tarjeta -->
+    <img class="img-fluid" src="../images/torta-anashe.jpg" alt="tortaChocolate">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Torta de Crema</h5>
+      <p class="card-text text-center">Es una masa humeda de chocolate rellena con dulce de leche y crema chantilly, cubierta con triple chocolate, y decorada con crema de chocolate</p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
+
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
+    <img class="img-fluid" src="../images/chocotorta.jpg" alt="tortaAlta">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Chocotorta</h5>
+      <p class="card-text text-center">Es un bizcochuelo que puede ser de vainilla o de chocolate con 2 rellenos, cubierta con buttercream. Rinde entre 16 y 20 porciones. </p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
+
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
+    <img class="img-fluid" src="../images/torta-frutosrojos.jpg" alt="tortaAlta">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Brownie Nutella</h5>
+      <p class="card-text text-center">Esta torta tiene base de brownie con una capa de Nutella, frutos rojos y crema. </p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
+
+  <h2 class="text-center mt-2 segundotitle">Nuestros huevos de pascua rellenos</h2>
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-3 firstcolumn" id="primeratarjeta" style="width: 18rem;"> <!-- Primera tarjeta -->
+    <img class="img-fluid" src="../images/huevo-oreo.jpg" alt="rogel">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Huevo de pascua Oreo</h5>
+      <p class="card-text text-center">Además de un exquisito chocolate, este huevo cuenta con crema de chocotorta y pedacitos de oreos bañadas.</p>
+      <a href="#" class="btn btn btn-outline-danger mt-4 ms-6">Precio: $1500</a>
+    </div>
+  </div>
+
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-3 firstcolumn" id="segundatarjeta" style="width: 18rem;"> <!-- Segunda tarjeta -->
+    <img class="img-fluid" src="../images/huevo-chocotorta.jpg" alt="tortaChocolate">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Torta de Chocolate</h5>
+      <p class="card-text text-center">Es una masa humeda de chocolate rellena con dulce de leche y crema chantilly, cubierta con triple chocolate, y decorada con crema de chocolate</p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
+
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
+    <img class="img-fluid" src="../images/macarons-ruth.jpg" alt="tortaAlta">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Macarons</h5>
+      <p class="card-text text-center">Alfajores de el color que quieras con rellenos de dulce de leche, chocolate, frutos rojos y mucho más. </p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
+
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
+    <img class="img-fluid" src="../images/torta-anashe.jpg" alt="tortaAlta">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Torta de crema</h5>
+      <p class="card-text text-center">Torta de crema con frutillas. </p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
+
+  <h2 class="text-center mt-2 segundotitle">Nuestros alfajorcitos</h2>
+
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-3 firstcolumn" id="segundatarjeta" style="width: 18rem;"> <!-- Segunda tarjeta -->
+    <img class="img-fluid" src="../images/huevo-chocotorta.jpg" alt="tortaChocolate">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Torta de Chocolate</h5>
+      <p class="card-text text-center">Además de un exquisito chocolate, este huevo cuenta con relleno de chocotorta y bolitas de chocolate.</p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
+
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
+    <img class="img-fluid" src="../images/macarons-ruth.jpg" alt="tortaAlta">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Macarons</h5>
+      <p class="card-text text-center">Alfajores de el color que quieras con rellenos de dulce de leche, chocolate, frutos rojos y mucho más. </p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
+
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
+    <img class="img-fluid" src="../images/torta-frutosrojos.jpg" alt="tortaAlta">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Torta alta</h5>
+      <p class="card-text text-center">Es un bizcochuelo que puede ser de vainilla o de chocolate con 2 rellenos, cubierta con buttercream. Rinde entre 16 y 20 porciones. </p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
+
+  <div class="card col-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
+    <img class="img-fluid" src="../images/torta-anashe.jpg" alt="tortaAlta">
+    <div class="card-body">
+      <h5 class="card-title text-center fw-bold">Torta alta</h5>
+      <p class="card-text text-center">Es un bizcochuelo que puede ser de vainilla o de chocolate con 2 rellenos, cubierta con buttercream. Rinde entre 16 y 20 porciones. </p>
+      <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
+    </div>
+  </div>
 
     </div> <!-- cierre div contenedor-->
-    <div class="row d-flex justify-content-center"> <!-- Inicio div contenedor general de filas  -->
-
-
-      <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-3 firstcolumn" id="primeratarjeta" style="width: 18rem;"> <!-- Primera tarjeta -->
-       <img class="img-fluid" src="../images/rogel.jpg" alt="rogel">
-       <div class="card-body">
-         <h5 class="card-title text-center fw-bold">Torta rogel</h5>
-         <p class="card-text text-center">Esta torta tiene 8 capas de masa intercaladas con dulce de leche, sumado a su abundante merengue.</p>
-         <a href="#" class="btn btn btn-outline-danger mt-4 ms-6">Precio: $1500</a>
-       </div>
-     </div>
-   
-     <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-3 firstcolumn" id="segundatarjeta" style="width: 18rem;"> <!-- Segunda tarjeta -->
-       <img class="img-fluid" src="../images/torta-chocolate.jpg" alt="tortaChocolate">
-       <div class="card-body">
-         <h5 class="card-title text-center fw-bold">Torta de Chocolate</h5>
-         <p class="card-text text-center">Es una masa humeda de chocolate rellena con dulce de leche y crema chantilly, cubierta con triple chocolate, y decorada con crema de chocolate</p>
-         <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
-       </div>
-     </div>
-   
-     <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
-       <img class="img-fluid" src="../images/torta-frutilla.jpg" alt="tortaAlta">
-       <div class="card-body">
-         <h5 class="card-title text-center fw-bold">Torta alta</h5>
-         <p class="card-text text-center">Es un bizcochuelo que puede ser de vainilla o de chocolate con 2 rellenos, cubierta con buttercream. Rinde entre 16 y 20 porciones. </p>
-         <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
-       </div>
-     </div>
-   
-   <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-3 firstcolumn" id="cuartatarjeta" style="width: 18rem;"> <!-- Cuarta tarjeta -->
-       <img class="img-fluid" src="../images/chocotorta.jpg" alt="chocotorta">
-       <div class="card-body">
-         <h5 class="card-title text-center fw-bold">Chocotorta</h5>
-         <p class="card-text text-center">Es una torta con relleno de chocolinas, decorada con oreos y bolas de chocolate. Puede ser de uno o dos pisos. </p>
-         <a href="#" class="btn btn btn-outline-danger btn btn-outline-danger mt-4 ms-6">Precio: $1500</a>
-       </div>
-     </div>
-   
-     
-   
-       </div> <!-- cierre div contenedor-->
-
-       <div class="row d-flex justify-content-center"> <!-- Inicio div contenedor general de filas  -->
-
-
-        <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-3 firstcolumn" id="primeratarjeta" style="width: 18rem;"> <!-- Primera tarjeta -->
-         <img class="img-fluid" src="../images/rogel.jpg" alt="rogel">
-         <div class="card-body">
-           <h5 class="card-title text-center fw-bold">Torta rogel</h5>
-           <p class="card-text text-center">Esta torta tiene 8 capas de masa intercaladas con dulce de leche, sumado a su abundante merengue.</p>
-           <a href="#" class="btn btn btn-outline-danger mt-4 ms-6">Precio: $1500</a>
-         </div>
-       </div>
-     
-       <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-3 firstcolumn" id="segundatarjeta" style="width: 18rem;"> <!-- Segunda tarjeta -->
-         <img class="img-fluid" src="../images/torta-chocolate.jpg" alt="tortaChocolate">
-         <div class="card-body">
-           <h5 class="card-title text-center fw-bold">Torta de Chocolate</h5>
-           <p class="card-text text-center">Es una masa humeda de chocolate rellena con dulce de leche y crema chantilly, cubierta con triple chocolate, y decorada con crema de chocolate</p>
-           <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
-         </div>
-       </div>
-     
-       <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-2 m-3 firstcolumn" id="terceratarjeta" style="width: 18rem;"> <!-- Tercera tarjeta -->
-         <img class="img-fluid" src="../images/torta-frutilla.jpg" alt="tortaAlta">
-         <div class="card-body">
-           <h5 class="card-title text-center fw-bold">Torta alta</h5>
-           <p class="card-text text-center">Es un bizcochuelo que puede ser de vainilla o de chocolate con 2 rellenos, cubierta con buttercream. Rinde entre 16 y 20 porciones. </p>
-           <a href="#" class="btn btn btn-outline-danger ms-6">Precio: $1500</a>
-         </div>
-       </div>
-     
-     <div class="card col-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3 p-2 m-3 firstcolumn" id="cuartatarjeta" style="width: 18rem;"> <!-- Cuarta tarjeta -->
-         <img class="img-fluid" src="../images/chocotorta.jpg" alt="chocotorta">
-         <div class="card-body">
-           <h5 class="card-title text-center fw-bold">Chocotorta</h5>
-           <p class="card-text text-center">Es una torta con relleno de chocolinas, decorada con oreos y bolas de chocolate. Puede ser de uno o dos pisos. </p>
-           <a href="#" class="btn btn btn-outline-danger btn btn-outline-danger mt-4 ms-6">Precio: $1500</a>
-         </div>
-       </div>
-     
-       
-     
-         </div> <!-- cierre div contenedor-->
    
   </section> <!-- Cierre sección contenedora de Cards -->
 
