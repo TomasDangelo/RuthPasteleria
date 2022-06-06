@@ -15,16 +15,11 @@
   width: 100%;
 }
 
-.titulo, .segundotitle, .low {
-  font-size: 6rem;
+.titulo, .low {
+  font-size: 4rem;
   color: #e93fe9;
-  font-weight: 1000;
+  font-weight: 400;
   font-family: 'Great Vibes', cursive;
-}
-
-.segundotitle {
-  font-size: 3rem;
-  font-family: 'Outfit', sans-serif;
 }
 
 .low {
@@ -37,11 +32,18 @@
   transition: -webkit-transform 2s;
   transition: transform 2s;
   transition: transform 2s, -webkit-transform 2s;
+  -webkit-box-shadow: 2px 2px 10px #9a089a;
+          box-shadow: 2px 2px 10px #9a089a;
 }
 
 .firstcolumn:hover {
   -webkit-transform: translate(10px) scale(1.1);
           transform: translate(10px) scale(1.1);
+}
+
+.blueshadow {
+  -webkit-box-shadow: 2px 2px 10px black;
+          box-shadow: 2px 2px 10px black;
 }
 
 footer {
